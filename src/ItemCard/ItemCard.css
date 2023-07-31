@@ -1,8 +1,9 @@
 .ItemCard{
     border: 1px solid black;
-    width: 200px;
     background-color: #eee;
     padding: 10px;
+    margin: 10px;
+    text-align: center;
 }
 
 .ItemCard__header{

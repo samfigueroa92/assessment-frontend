@@ -1,0 +1,16 @@
+.Container{
+    width: 60vw;
+    height: 88vh;
+    border-radius: 5px;
+}
+
+.Container__scroll{
+    overflow-y: scroll;
+}
+
+.Container__center{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    border: 3px dashed black;
+}

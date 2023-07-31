@@ -4,6 +4,7 @@ import './App.css';
 import ItemsList from './ItemsList/ItemsList';
 import Error from './Error/Error';
 import Loading from './Loading/Loading';
+import Container from './Container/Container';
 
 const API_URL = process.env.REACT_APP_API_URL;
 
@@ -51,7 +52,9 @@ const App = () => {
       <div className="App__header">
       Our menu
       </div>
+      <Container center={Boolean(error || loading)} scroll={false}>
       {renderContent()}
+      </Container>
     </div>
   );
 }

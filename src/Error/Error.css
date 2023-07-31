@@ -1,3 +1,19 @@
-.Error{
-    background-color: lightcoral;
+.Error__avatar img{
+    width: 300px;
+}
+
+.Error__avatar{
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+.Error__text{
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 2em;
+   
+
 }
